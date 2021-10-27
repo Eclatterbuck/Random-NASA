@@ -1,4 +1,4 @@
-#Random NASA
+<!-- #Random NASA
 
 A simple web app for displaying random images from NASA!
 
@@ -20,4 +20,4 @@ JAvascript/jQuery
 [Click here](#) to see the site live
 
 ## Future Enhancements
--Alow the user to see more details of a image by clicking on image card
+-Alow the user to see more details of a image by clicking on image card -->

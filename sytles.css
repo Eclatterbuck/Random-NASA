@@ -4,5 +4,61 @@
 }
 
 body {
-    background-color: #000;
-} 
+    background-color: #0c022a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    color: #daa520;
+}
+
+main {
+    flex-grow: 1;
+}
+
+section {
+    display: flex;
+    width: 60rem;
+    flex-wrap: wrap;
+    margin: 6.25rem auto;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 1rem;
+    color: #daa520;
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+    margin: .15rem;
+    text-shadow: 2px 3px 5px #000000;
+    width: 18.75rem;
+    height: 12.5rem; /* rem stands for root element metric - by default it's equal to 16 */
+}
+article p {
+    overflow: scroll;
+}
+
+footer {
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (min-width: 764px) {
+    header {
+        justify-content: start;
+        padding-left: 1rem;
+    }
+}
